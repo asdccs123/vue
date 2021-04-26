@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul id="app">
+  <li v-for="item in movies">{{item}}</li>
+</ul>
+<script src="../vue.js"></script>
+<script>
+const app=new Vue({
+  el:'#app',
+  data:{
+    message:'回到房间卡的很尽快送达',
+    movies:['海贼王','星际穿越','盗梦空间']
+  }
+
+})
+</script>
+</body>
+</html>

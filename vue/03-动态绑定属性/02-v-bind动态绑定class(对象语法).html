@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+      .active {
+        color: red;
+      }
+
+      .line {
+        text-decoration: line-through darkred;
+      }
+    </style>
+</head>
+<body>
+<div id="app">
+    <!--  <h2 :class="activehaha">{{message}}</h2>-->
+    <!--  <h2 class="active">{{message}}</h2>-->
+    <!--  在v-bind:后填入多个对象，用bool值来控制这个标签是否添加这个类-->
+    <h2 v-bind:class="{active:isActive,line:isLine}">{{message}}</h2>
+    <button v-on:click="red"> 按钮</button>
+</div>
+<script src="../vue.js"></script>
+<script>
+  const app = new Vue({
+    el: '#app',
+    data: {
+      message: '哈哈哈哈',
+      isActive: true,
+      isLine: true
+    },
+    methods: {
+      red: function () {
+        this.isActive = !this.isActive;
+      }
+    }
+  })
+</script>
+</body>
+</html>

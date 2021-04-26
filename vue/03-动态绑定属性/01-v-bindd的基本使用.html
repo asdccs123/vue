@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+<!--    使用v-bind指令进行绑定-->
+    <img v-bind:src="imgURL" alt="">
+    <a v-bind:href="aHerf">aaaa</a>
+
+<!--    使用v-bind语法糖指令进行绑定-->
+    <img :src="imgURL" alt="">
+    <a :href="aHerf">aaaa</a>
+</div>
+<script src="../vue.js"></script>
+<script>
+  const app = new Vue({
+    el:'#app',
+    data:{
+      message:'哈哈哈哈',
+      imgURL:'https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAKvPwM.img',
+      aHerf:'http://www.baidu.com'
+    }
+  })
+</script>
+</body>
+</html>

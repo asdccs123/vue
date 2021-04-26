@@ -1,0 +1,17 @@
+Index: ../111111
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>112312312210点41分\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../111111 b/../111111
+--- a/../111111	(revision cc963d9f734f0becde2b3ac3b9cbaf40e20af9ae)
++++ b/../111111	(date 1622365510518)
+@@ -1,1 +1,6 @@
+ 112312312210点41分
++<<<<<<< HEAD
++=======
++10点42分
++10点45分
++>>>>>>> 6de46f8... master
