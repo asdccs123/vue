@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div id="app">
+  <div v-if="books.length>0">
+  <table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>书籍名称</th>
+      <th>出版日期</th>
+      <th>单价/总计</th>
+      <th>购买数量</th>
+      <th>操作</th>
+    </tr>
+  </thead>
+
+  <tbody>
+  <tr v-for="(item,index) in books">
+    <td>{{item.id}}</td>
+    <td>{{item.name}}</td>
+    <td>{{item.date}}</td>
+<!--    //过滤器showprice的使用-->
+    <td>{{item.price | showPrice}}/{{TotalCost(index) | showPrice}}</td>
+    <td>
+      <button @click="add(index)">+</button>
+      {{item.count}}
+<!--      v-bind:disable属性，当书籍的数量小于1的时候减少按钮不允许使用-->
+      <button @click="sub(index)" v-bind:disabled="item.count===1">-</button>
+    </td>
+    <td><button @click="remove(index)">移除</button></td>
+  </tr>
+  </tbody>
+  </table>
+  <h2>总价格{{TotalPrice|showPrice}}</h2>
+  </div>
+  <div v-else>
+    <h2>购物城为空</h2>
+  </div>
+</div>
+
+<script src="../vue.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>

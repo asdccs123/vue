@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+<!--    <input type="text" v-model="message">-->
+<!--    1.:value="message"实现的是数据到界面的绑定-->
+<!--    2.@input="message"实现的是界面到数据的绑定-->
+    <input type="text" :value="message" @input="message=$event.target.value">
+    <h1>{{message}}</h1>
+</div>
+<script src="../vue.js"></script>
+<script>
+  const app = new Vue({
+    el: '#app',
+    data: {
+      message: '哈哈哈年号号啊'
+    }
+  })
+</script>
+</body>
+</html>

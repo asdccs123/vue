@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+  <ul>
+    <li v-for="item in letters" >{{item}}</li>
+  </ul>
+  <button @click="btnClick">按钮</button>
+</div>
+<script src="../vue.js"></script>
+<script>
+  const app = new Vue({
+    el:'#app',
+    data:{
+      letters:['a','b','c','d']
+    },
+    methods:{
+      btnClick() {
+        //1.push方法在数组最后以为增加一个或多个元素（响应式）
+        //this.letters.push('e');
+        // this.letters.push('e','f',g)
+
+        //2.通过索引值改变数组中的元素(不响应)
+        // this.letters[0]='aaaaa'
+        // this.letters.splice(0,1,'aaaa')(响应)
+        // Vue.set(this.letters,0,'bbbb')(响应)
+
+        // 3.pop()删除最后一个元素(响应)
+        // this.letters.pop();
+
+        // 4.shift() 删除数组中的第一个元素（响应）
+        // this.letters.shift();
+
+        // 5.unshift()在数组最前面添加一个或多个元素(响应)
+        // this.letters.unshift('aaa','bbb');
+
+        // 6.splice()在数组中的某个地方（删除/插入/替换）一个或多个元素（响应）
+        //       删除元素：第二个参数传入需要删除几个元素(如果没有填，则删除所有元素)
+        //       splice(start,几个元素)：splice(0,letter.length)从第0个元素开始删除，删除数组长度个元素
+        //       替换元素：第二个参数，表示需要替换几个元素，后面的参数是用什么元素来替换几个元素
+        //       splice(start,几个元素,'m','n','q')
+        //       插入元素：第二个参数填0，并且后面跟上需要插入的元素
+        //       splice (start,0,'g','h')
+        // this.letters.splice();
+        // 7.sort()排序（响应）
+        // this.letters.sort();
+        // 8.reverse()反转（响应）
+        // this.letters.reverse();
+
+      }
+    }
+  })
+</script>
+
+</body>
+</html>

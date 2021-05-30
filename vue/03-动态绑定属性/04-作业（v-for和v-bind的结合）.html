@@ -13,7 +13,7 @@
 <div id="app">
   <ul>
 <!--    class中判断indexNum是否和当前点击触发的getindex方法中的索引值是否相等，如果相等则red:true则变成红色，其他red：flase不变色-->
-    <li v-on:click="getIndex(index)" v-for="(moive,index) in moives" :class="{red:indexNum==index}">{{moive}}</li>
+    <li @click="getIndex(index)" v-for="(moive,index) in moives" :class="{red:indexNum===index}">{{moive}}</li>
   </ul>
 </div>
 <script src="../vue.js"></script>
@@ -22,7 +22,7 @@
     el:'#app',
     data:{
       moives:['蝙蝠侠','蜘蛛侠','超人','绿灯侠'],
-      indexNum:-1
+      indexNum:0
     },methods:{
       getIndex:function(index)
       {
