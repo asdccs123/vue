@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!-- 1.stop修饰符的使用：阻止冒泡-->
+<div id="app">
+  <div @click="divClick">
+    aaaaaaaa
+    <button @click.stop="BtnClick">按钮</button>
+  </div>
+<!--  2.prevent修饰符的使用:阻止默认事件的执行 -->
+  <form action="http://baidu.com">
+    <input type="submit" value="提交" @click.prevent="submitClick">
+  </form>
+<!--  3.监听某个键盘的事件:(.enter)监听enter键等等-->
+  <input type="text" @keyup.enter="keyup">
+
+</div>
+<script src="../vue.js"></script>
+<script>
+  const app = new Vue({
+    el:'#app',
+    data:{
+      message:'哈哈哈哈'
+    },methods:{
+      divClick() {
+        console.log('div')
+      },
+      BtnClick(){
+        console.log('btn')},
+      submitClick(){
+      console.log('哈哈哈哈')
+    },
+      keyup(){
+        console.log('keyup')
+      }
+    }
+  })
+</script>
+</body>
+</html>

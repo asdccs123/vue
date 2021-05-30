@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+<!--但是不建议这样写，最好在jsx中处理逻辑代码-->
+  <h1>{{counter}}</h1>
+  <h2 v-if="counter>=0&&counter<60">不及格</h2>
+  <h2 v-else-if="counter>=60&&counter<70">及格</h2>
+  <h2 v-else-if="counter>=70&&counter<90">良好</h2>
+  <h2 v-else-if="counter>=90&&counter<=100">优秀</h2>
+  <button @click="add">+</button>
+  <button @click="sub">-</button>
+</div>
+<script src="../vue.js"></script>
+<script>
+  const app = new Vue({
+    el:'#app',
+    data:{
+      counter:60
+    },methods:{
+      add(){
+        this.counter++;
+      },
+      sub(){
+        this.counter--;
+      }
+    }
+  })
+</script>
+
+</body>
+</html>

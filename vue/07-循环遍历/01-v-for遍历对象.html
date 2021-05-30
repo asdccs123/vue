@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+<!--  1.在遍历的过程中没有使用索引值-->
+  <ul>
+    <li v-for="player in names">{{player}}</li>
+  </ul>
+<!--    2.在遍历过程中获取下标值-->
+  <ul>
+    <li v-for="(player,index) in names">{{index+1}}.{{player}}</li>
+  </ul>
+</div>
+<script src="../vue.js"></script>
+<script>
+  const app = new Vue({
+    el:'#app',
+    data:{
+      names:['ccs','micheal','james','curry']
+    }
+  })
+</script>
+</body>
+</html>

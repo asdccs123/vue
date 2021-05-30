@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8148dbb1-78e4-482f-86a9-6a8e3c686dbf" name="默认变更列表" comment="Update 111111">
-      <change afterPath="$PROJECT_DIR$/00-es6语法补充/01-块级作用域.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00-es6语法补充/03-const的使用.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/00-es6语法补充/04-对象字面量的增强写法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-计算属性/04-计算属性和methods的对比.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-事件监听/01-v-on的基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-事件监听/02-v-on的参数问题.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-事件监听/03-v-on的修饰符.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-条件判断/01-v-if的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-条件判断/02-v-if和v-else的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-条件判断/03-v-if和v-else-if和v-else的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-条件判断/04-用户登录切换的小案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-条件判断/06-v-show的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-循环遍历/01-v-for遍历对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-循环遍历/02-v-for遍历对象.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1622351430328</updated>
       <workItem from="1622351431986" duration="12325000" />
-      <workItem from="1622365453246" duration="5042000" />
+      <workItem from="1622365453246" duration="12174000" />
     </task>
     <task id="LOCAL-00001" summary="Update 111111">
       <created>1622366289163</created>
@@ -79,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622367726215</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update 111111">
+      <created>1622372066139</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1622372066139</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

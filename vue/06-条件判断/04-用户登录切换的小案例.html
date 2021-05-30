@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+  <span v-if="IsEmail">邮箱登录</span>
+  <span v-else>用户名登录</span>
+  <button @click="ChangeLogin">切换类型</button>
+</div>
+<script src="../vue.js"></script>
+<script>
+  const app = new Vue({
+    el:'#app',
+    data:{
+      IsEmail:true
+    },methods:{
+      ChangeLogin(){
+        this.IsEmail=!this.IsEmail;
+      }
+    }
+  })
+</script>
+
+</body>
+</html>

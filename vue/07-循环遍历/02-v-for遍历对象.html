@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+<!--  1.获取value,key键值对-->
+  <ul>
+    <li v-for="(value,key) in info">{{key}}=={{value}}</li>
+  </ul>
+<!--  2.获取value,key,index-->
+  <ul>
+    <li v-for="(value,key,index) in info">{{index+1}}.{{key}}=={{value}}</li>
+  </ul>
+</div>
+<script src="../vue.js"></script>
+<script>
+  const app = new Vue({
+    el: '#app',
+    data: {
+      info: {
+        name:'ccs',age:32,height:173
+      }
+    }
+  })
+</script>
+
+</body>
+</html>
