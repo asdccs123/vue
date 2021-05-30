@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <ul>
+<!--        key值最好是唯一值，不要使用index，才能做性能最优-->
+        <li v-for="item in letters" :key="item">{{item}}</li>
+    </ul>
+</div>
+<script src="../vue.js"></script>
+<script>
+  const app = new Vue({
+    el:'#app',
+    data:{
+      letters:['A','B','C','D','E']
+    }
+  })
+</script>
+</body>
+</html>
