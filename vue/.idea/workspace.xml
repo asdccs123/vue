@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8148dbb1-78e4-482f-86a9-6a8e3c686dbf" name="默认变更列表" comment="Update 111111">
+      <change afterPath="$PROJECT_DIR$/00-es6语法补充/01-块级作用域.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00-es6语法补充/03-const的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00-es6语法补充/04-对象字面量的增强写法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-计算属性/04-计算属性和methods的对比.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-计算属性/03-计算属性的setter和getter.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-计算属性/03-计算属性的setter和getter.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1622351430328</updated>
       <workItem from="1622351431986" duration="12325000" />
-      <workItem from="1622365453246" duration="2240000" />
+      <workItem from="1622365453246" duration="5042000" />
     </task>
     <task id="LOCAL-00001" summary="Update 111111">
       <created>1622366289163</created>
@@ -69,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622367594014</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update 111111">
+      <created>1622367726214</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1622367726215</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

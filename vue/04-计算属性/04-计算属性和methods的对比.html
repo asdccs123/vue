@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+<!--  直接拼接 pass过于繁琐-->
+  <h2>{{firstName+' '+lastname}}</h2>
+<!--2.通过methods方法 调用n次执行n次方法-->
+<!--  <h2>{{getFullName()}}</h2>-->
+<!--  <h2>{{getFullName()}}</h2>-->
+<!--  <h2>{{getFullName()}}</h2>-->
+<!--  <h2>{{getFullName()}}</h2>-->
+<!--  <h2>{{getFullName()}}</h2>-->
+<!--  <h2>{{getFullName()}}</h2>-->
+<!--  <h2>{{getFullName()}}</h2>-->
+<!--  <h2>{{getFullName()}}</h2>-->
+<!--  <h2>{{getFullName()}}</h2>-->
+<!--  3.通过计算属性 多次调用只执行一次方法 **推荐使用**-->
+  <h2>{{fullName}}</h2>
+  <h2>{{fullName}}</h2>
+  <h2>{{fullName}}</h2>
+  <h2>{{fullName}}</h2>
+  <h2>{{fullName}}</h2>
+  <h2>{{fullName}}</h2>
+  <h2>{{fullName}}</h2>
+  <h2>{{fullName}}</h2>
+  <h2>{{fullName}}</h2>
+  <h2>{{fullName}}</h2>
+  <h2>{{fullName}}</h2>
+  <h2>{{fullName}}</h2>
+  <h2>{{fullName}}</h2>
+  <h2>{{fullName}}</h2>
+</div>
+<script src="../vue.js"></script>
+<script>
+  const app = new Vue({
+    el:'#app',
+    data: {
+      firstName: 'kobe',
+      lastname: 'bryant'
+    },methods:{
+      getFullName:function (){
+        console.log('methods');
+        return  this.firstName+' '+ this.lastname;
+      }
+    },computed:{
+      fullName: function ()
+      {
+        console.log('computed');
+        return  this.firstName+' '+ this.lastname;
+      }
+
+    }
+  })
+</script>
+
+</body>
+</html>
