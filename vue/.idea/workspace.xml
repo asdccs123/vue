@@ -2,32 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8148dbb1-78e4-482f-86a9-6a8e3c686dbf" name="默认变更列表" comment="Update 111111">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/rebase___.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/在rebase之前未提交的更改_[默认变更列表]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vue.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-插值操作/01-mustache语法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-插值操作/02-v-once指令的使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-插值操作/03-v-html指令的使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-插值操作/04-v-text指令的使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-插值操作/05-v-pre指令的使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-插值操作/06-v-cloak指令的使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-动态绑定属性/01-v-bindd的基本使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-动态绑定属性/02-v-bind动态绑定class(对象语法).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-动态绑定属性/03-v-bind动态绑定class(数组语法).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-动态绑定属性/04-作业（v-for和v-bind的结合）.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-动态绑定属性/05-v-bind动态绑定sytle语法(对象语法).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-动态绑定属性/05-v-bind动态绑定sytle语法(数组语法).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-计算属性/01-计算属性的基本使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-计算属性/02-计算属性的复杂操作.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/01-hellovuejs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/02-vue的列表展示.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/03-vue计数器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/04-vue的模板.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-计算属性/03-计算属性的setter和getter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01/01-hellovuejs.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-初识vuejs/01-hellovuejs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01/02-vue的列表展示.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-初识vuejs/02-vue的列表展示.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01/03-vue计数器.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-初识vuejs/03-vue计数器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01/04-vue的模板.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-初识vuejs/04-vue的模板.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +33,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1tF4J5WSlVkbPgyN3ib9fueDBTf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -75,8 +57,16 @@
       <option name="presentableId" value="Default" />
       <updated>1622351430328</updated>
       <workItem from="1622351431986" duration="12325000" />
-      <workItem from="1622365453246" duration="747000" />
+      <workItem from="1622365453246" duration="2052000" />
     </task>
+    <task id="LOCAL-00001" summary="Update 111111">
+      <created>1622366289163</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1622366289163</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
