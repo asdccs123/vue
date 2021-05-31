@@ -5,17 +5,37 @@
     <title>Title</title>
 </head>
 <body>
-<div id="app">
 
+
+<div id="app">
+    <mycpn></mycpn>
+    <mycpn></mycpn>
+    <mycpn></mycpn>
+    <mycpn></mycpn>
 </div>
 <script src="../vue.js"></script>
 <script>
-  const app = new Vue({
-    el: '#app',
-    data: {
-      message: '哈哈哈年号号啊'
-    }
-  })
+    // 1.创建组件构造器的对象
+    const cpnCtor = Vue.extend({
+        template: `
+        <div>
+            <h2>发动机奥克兰</h2>
+            <p>号的飞机喀什就看撒</p>
+            <p>的话就发开始了监考老师</p>
+        </div>
+    `
+    })
+
+    // 2.注册组件
+    Vue.component('mycpn',cpnCtor);
+
+
+    const app = new Vue({
+        el: '#app',
+        data: {
+            message: '哈哈哈年号号啊'
+        }
+    })
 </script>
 </body>
 </html>
