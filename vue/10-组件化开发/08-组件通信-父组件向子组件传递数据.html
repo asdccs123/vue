@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .red {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    <cpn ></cpn>
+</div>
+<template id="cpn">
+    <div>
+        <ul>
+            <li v-for="(item,index) in cmovies"><h2>{{item}}</h2></li>
+        </ul>
+        <p>{{cmessage}}</p>
+    </div>
+</template>
+<script src="../vue.js"></script>
+<script>
+  //父传子使用props
+  const app = new Vue({
+    el: '#app',
+    data: {
+      message: '哈哈哈哈',
+      movies: ['海王', '超人', '蝙蝠侠', '闪电侠'],
+      indexNum: 0
+    },
+
+    components: {
+      'cpn': {
+        template: '#cpn',
+        data() {
+          return {}
+        },
+        // props: ['cmovies', 'cmessage'],
+        // 1.限定类型
+        // props:{
+        //   cmovies:Array,
+        //   cmessage:String
+        // }
+        // 2.限定类型+默认值
+        props:{
+          cmovies:{
+            //类型是一个对象或者是数组的时候，默认值必须是个函数
+            type:Array,
+            default(){
+              return ['1','2','3']
+            }
+          },
+          cmessage:{
+            type:String,
+            default:'hahahahah',
+            //require true表示该值是必填值
+            required:true//布尔值
+          }
+        }
+
+      }
+    }
+
+  })
+</script>
+</body>
+</html>

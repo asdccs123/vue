@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8148dbb1-78e4-482f-86a9-6a8e3c686dbf" name="默认变更列表" comment="Update 111111">
-      <change afterPath="$PROJECT_DIR$/10-组件化开发/02-父组件和子组件的使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-组件化开发/04-注册组件的语法糖.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-组件化开发/05-组件的模板分离写法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-组件化开发/06-组件中的数据存放问题.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-组件化开发/07-组件中的data为什么是函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-组件化开发/08-组件通信-父组件向子组件传递数据.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08-书籍购物车/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/08-书籍购物车/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08-书籍购物车/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/08-书籍购物车/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +44,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/10-组件化开发/06-组件中的数据存放问题.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/10-组件化开发/06-组件中的数据存放问题.html" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
@@ -62,7 +60,7 @@
       <updated>1622351430328</updated>
       <workItem from="1622351431986" duration="12325000" />
       <workItem from="1622365453246" duration="23264000" />
-      <workItem from="1622422627269" duration="10915000" />
+      <workItem from="1622422627269" duration="16666000" />
     </task>
     <task id="LOCAL-00001" summary="Update 111111">
       <created>1622366289163</created>
@@ -106,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622417369626</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update 111111">
+      <created>1622552343458</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1622552343458</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
