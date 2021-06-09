@@ -17,6 +17,7 @@
       lastname: 'bryant'
     },
     computed: {
+      //计算属性多次调用值执行一次，他是有缓存的
       //计算属性一般没有set方法，只读属性
       //相当于c#中的属性set get方法（构造器）的功能对数据进行筛选
       fullName: {
