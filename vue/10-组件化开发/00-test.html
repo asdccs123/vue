@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--子传父-->
+<!--<div id="app">-->
+<!--    <cpn @itemclick="cpnClick"></cpn>-->
+<!--</div>-->
+<!--<template id="ccs">-->
+<!--    <div>-->
+<!--        <button v-for="item in categories" @click="BtnClick(item)">{{item.name}}</button>-->
+<!--    </div>-->
+<!--</template>-->
+<!--<script src="../vue.js"></script>-->
+<!--<script>-->
+<!--  //父组件-->
+<!--  const app = new Vue({-->
+<!--    el: '#app',-->
+<!--    methods: {-->
+<!--      cpnClick(item) {-->
+<!--        console.log('father', item)-->
+<!--      }-->
+<!--    },-->
+<!--    components: {-->
+<!--      cpn: {-->
+<!--        template: '#ccs',-->
+<!--        data() {-->
+<!--          return {-->
+<!--            categories: [-->
+<!--              {id: 'aaa', name: '热门推荐'},-->
+<!--              {id: 'bbb', name: '热门推荐b'},-->
+<!--              {id: 'ccc', name: '热门推荐c'},-->
+<!--              {id: 'ddd', name: '热门推荐d'},-->
+<!--            ]-->
+<!--          }-->
+<!--        },-->
+<!--        methods: {-->
+<!--          BtnClick(item) {-->
+<!--            this.$emit('itemclick', item)-->
+<!--          }-->
+<!--        }-->
+<!--      }-->
+<!--    }-->
+<!--  })-->
+<!--</script>-->
+
+
+
+<!--父传子-->
+<!--<div id="app">-->
+<!--<cpn :cmoives="movies"></cpn>-->
+<!--</div>-->
+<!--<template id="ccs">-->
+<!--<div>-->
+<!--    <h2 v-for="item in cmoives">{{item}}</h2>-->
+<!--</div>-->
+<!--</template>-->
+<!--<script src="../vue.js"></script>-->
+<!--<script>-->
+<!--  const app = new Vue({-->
+<!--    el:'#app',-->
+<!--    data:{-->
+<!--      movies:['海王','超人','蝙蝠侠','闪电侠']-->
+<!--    },-->
+<!--    components:{-->
+<!--      cpn:{-->
+<!--        template:'#ccs',-->
+<!--        props:{-->
+<!--           cmoives:{-->
+<!--             type:Array,-->
+<!--             default(){-->
+<!--               return ['xx侠','xx侠','xx侠','xx侠']-->
+<!--             }-->
+<!--           }-->
+<!--        }-->
+<!--      }-->
+<!--    }-->
+<!--  })-->
+<!--</script>-->
+
+<!--父子双向绑定-->
+<div id="app">
+<cpn
+        :number1="num1"
+        :number2="num2"
+        @num1change="num1change"
+        @num2change="num2change"
+></cpn>
+</div>
+<template id="cpn">
+<div>
+    <h2>father:{{fatherNumber1}}</h2>
+    <h2>data:{{number1}}</h2>
+    <input type="number" v-model="fatherNumber1">
+    <h2>father:{{fatherNumber2}}</h2>
+    <h2>data:{{number2}}</h2>
+    <input type="number" :value="fatherNumber2"  @input="changeNum2($event)">
+</div>
+</template>
+<script src="../vue.js"></script>
+<script>
+  const app = new Vue({
+    el:'#app',
+    data:{
+     num1:1,
+      num2:2
+    },
+    methods: {
+      num1change(value){
+        this.num1=parseInt(value)
+      },
+      num2change(value){
+        this.num2=parseInt(value)
+      }
+    },
+    components:{
+      cpn:{
+        template:'#cpn',
+        props:{
+          number1:Number,
+          number2:Number
+        },
+        data(){
+          return{
+            fatherNumber1:this.number1,
+            fatherNumber2:this.number2
+          }
+        },
+        //实现方法1：通过监听fatherNumber1是否改变来触发自定义事件
+        watch:{
+          fatherNumber1(newValue){
+            this.$emit('num1change',newValue)
+          }
+        },
+        //实现方法2：传统方法，通过绑定输入事件来触发自定义事件
+        methods:{
+          changeNum2(event){
+            this.fatherNumber2=event.target.value,
+            this.$emit('num2change',this.fatherNumber2)
+          }
+        }
+      }
+    }
+  })
+</script>
+</body>
+</html>
+
