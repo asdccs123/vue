@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8148dbb1-78e4-482f-86a9-6a8e3c686dbf" name="默认变更列表" comment="Update 111111">
-      <change afterPath="$PROJECT_DIR$/11-组件化高级/02-slot-具名插槽的使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-组件化高级/03-什么是编译的作用域.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-组件化高级/04-slot-作用域插槽的案例.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11-组件化高级/01-slot-插槽的基本使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/11-组件化高级/01-slot-插槽的基本使用.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +62,7 @@
       <workItem from="1622422627269" duration="18883000" />
       <workItem from="1623161539094" duration="8809000" />
       <workItem from="1625097405335" duration="27000" />
-      <workItem from="1625097443299" duration="20098000" />
+      <workItem from="1625097443299" duration="21483000" />
     </task>
     <task id="LOCAL-00001" summary="Update 111111">
       <created>1622366289163</created>
@@ -157,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625194595571</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Update 111111">
+      <created>1625210269027</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1625210269028</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
