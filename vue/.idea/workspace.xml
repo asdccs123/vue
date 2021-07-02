@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8148dbb1-78e4-482f-86a9-6a8e3c686dbf" name="默认变更列表" comment="Update 111111">
-      <change afterPath="$PROJECT_DIR$/10-组件化开发/09-组件通信-父传子（props中的驼峰标识）.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-组件化开发/10-组件通信-子传父（自定义事件）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-组件化开发/14-组件访问-子访问父亲-parent-root.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-组件化高级/01-slot-插槽的基本使用.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-计算属性/03-计算属性的setter和getter.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-计算属性/03-计算属性的setter和getter.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +61,9 @@
       <workItem from="1622351431986" duration="12325000" />
       <workItem from="1622365453246" duration="23264000" />
       <workItem from="1622422627269" duration="18883000" />
-      <workItem from="1623161539094" duration="2597000" />
+      <workItem from="1623161539094" duration="8809000" />
+      <workItem from="1625097405335" duration="27000" />
+      <workItem from="1625097443299" duration="16298000" />
     </task>
     <task id="LOCAL-00001" summary="Update 111111">
       <created>1622366289163</created>
@@ -120,7 +121,35 @@
       <option name="project" value="LOCAL" />
       <updated>1622562833534</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update 111111">
+      <created>1623197826173</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1623197826173</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Update 111111">
+      <created>1625123456438</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1625123456439</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Update 111111">
+      <created>1625123488487</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1625123488487</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Update 111111">
+      <created>1625191614105</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1625191614105</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
