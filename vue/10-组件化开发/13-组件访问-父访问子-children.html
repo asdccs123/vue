@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+  <cpn></cpn>
+  <cpn></cpn>
+  <cpn ref="aaa"></cpn>
+<button @click="btnClick">aaa</button>
+</div>
+<template id="cpn">
+  <div>我是子组件</div>
+</template>
+<script src="../vue.js"></script>
+<script>
+  const app = new Vue({
+    el:'#app',
+    methods: {
+      btnClick(){
+        // 1.通过children来提取组件，使用较少，用下标提取的一般灵活性较差
+        // this.$children[0].showMessage()
+        // this.$children[1].showMessage()
+        // this.$children[2].showMessage()
+
+        //2.通过$refs,在子组件增加ref='名称'的属性标签，通过$refs.名称.方法 来提取方法
+        this.$refs.aaa.showMessage()
+      }
+    },
+    components:{
+      cpn:{
+        template:'#cpn',
+        methods: {
+          showMessage(){
+            console.log('子组件');
+          }
+        }
+      }
+    }
+  })
+</script>
+
+</body>
+</html>
