@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8148dbb1-78e4-482f-86a9-6a8e3c686dbf" name="默认变更列表" comment="Update 111111">
-      <change afterPath="$PROJECT_DIR$/11-组件化高级/04-slot-作用域插槽的案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-前端模块化/02-ES6的模块化实现/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-前端模块化/02-ES6的模块化实现/xiaohong.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-前端模块化/02-ES6的模块化实现/xiaoming.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-前端模块化/02-ES6的模块化实现/xiaoqiang.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/01-webpack的起步/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/01-webpack的起步/src/info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/01-webpack的起步/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/01-webpack的起步/src/mathUntils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/02-webpack的配置/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/02-webpack的配置/src/info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/02-webpack的配置/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/02-webpack的配置/src/mathUntils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/02-webpack的配置/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/03-webpack的loader/dist/bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/03-webpack的loader/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/03-webpack的loader/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/03-webpack的loader/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/03-webpack的loader/src/info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/03-webpack的loader/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/03-webpack的loader/src/mathUntils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/03-webpack的loader/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,9 +33,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -39,15 +59,25 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/10-组件化开发/06-组件中的数据存放问题.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/13-webpack的使用" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/10-组件化开发/06-组件中的数据存放问题.html" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\html\vue\13-webpack的使用" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\html\vue\13-webpack的使用\02-webpack的配置\src\js" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -62,7 +92,8 @@
       <workItem from="1622422627269" duration="18883000" />
       <workItem from="1623161539094" duration="8809000" />
       <workItem from="1625097405335" duration="27000" />
-      <workItem from="1625097443299" duration="21483000" />
+      <workItem from="1625097443299" duration="28434000" />
+      <workItem from="1625474519912" duration="4247000" />
     </task>
     <task id="LOCAL-00001" summary="Update 111111">
       <created>1622366289163</created>
@@ -162,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625210269028</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Update 111111">
+      <created>1625211655719</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1625211655720</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
