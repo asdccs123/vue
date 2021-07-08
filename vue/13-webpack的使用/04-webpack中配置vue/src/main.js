@@ -14,4 +14,16 @@ require('./css/normal.css')
 
 //4.依赖less文件
 require('./css/special.less')
-document.writeln('<h2>积分抵扣垃圾筐</h2>')
+//document.writeln('<h2>积分抵扣垃圾筐</h2>')
+
+//5.使用vue进行开发
+import Vue from 'vue'
+import App from './vue/App.vue'
+
+const app=new Vue({
+  el:'#app',
+  template:`<App/>`,
+  components:{
+    App
+  }
+})
