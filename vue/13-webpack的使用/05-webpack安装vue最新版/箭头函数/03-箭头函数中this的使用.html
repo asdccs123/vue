@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  //结论：箭头函数中的this引用的就是最近作用域中的this
+  setTimeout(()=>{
+    console.log(this)
+  })
+</script>
+</body>
+</html>

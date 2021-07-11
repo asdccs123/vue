@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8148dbb1-78e4-482f-86a9-6a8e3c686dbf" name="默认变更列表" comment="Update 111111">
-      <change afterPath="$PROJECT_DIR$/13-webpack的使用/04-webpack中配置vue/src/vue/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-webpack的使用/04-webpack中配置vue/src/vue/Cpn.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/05-webpack安装vue最新版/cli3test/vue.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/05-webpack安装vue最新版/箭头函数/01-箭头函数的基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/05-webpack安装vue最新版/箭头函数/02-箭头函数参数和返回值.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/05-webpack安装vue最新版/箭头函数/03-箭头函数中this的使用.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13-webpack的使用/04-webpack中配置vue/dist/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/13-webpack的使用/04-webpack中配置vue/dist/bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13-webpack的使用/04-webpack中配置vue/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/13-webpack的使用/04-webpack中配置vue/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13-webpack的使用/04-webpack中配置vue/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/13-webpack的使用/04-webpack中配置vue/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13-webpack的使用/04-webpack中配置vue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/13-webpack的使用/04-webpack中配置vue/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13-webpack的使用/04-webpack中配置vue/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/13-webpack的使用/04-webpack中配置vue/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13-webpack的使用/04-webpack中配置vue/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/13-webpack的使用/04-webpack中配置vue/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,11 +16,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="Less File" />
-        <option value="JavaScript File" />
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -60,6 +56,7 @@
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/10-组件化开发/06-组件中的数据存放问题.html" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -89,6 +86,8 @@
       <workItem from="1625474519912" duration="13756000" />
       <workItem from="1625713306154" duration="5098000" />
       <workItem from="1625734679103" duration="1027000" />
+      <workItem from="1625736416717" duration="10236000" />
+      <workItem from="1625800840479" duration="1447000" />
     </task>
     <task id="LOCAL-00001" summary="Update 111111">
       <created>1622366289163</created>
